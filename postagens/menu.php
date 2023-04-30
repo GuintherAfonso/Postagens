@@ -8,15 +8,19 @@
   </head> 
     
   <body>
-        <header>
+        <header class="menu">
             <div>
-                 
-                         <a href="index.php">HOME</a>
-                        <a href="categoria.php">CATEGORIAS</a>
-                        <a href="post.php">POSTAR</a>
-                        <a href="login.php">LOGIN</a>
-                        <a href="sair.php">SAIR</a>
-
+                      
+                     <a href="index.php">HOME</a>
+                     <a href="categoria.php">CATEGORIAS</a>
+                     <a href="post.php">POSTAR</a>
+                     <a href="login.php">LOGIN</a>
+                     <?php if(isset($_SESSION['logado'])): ?>
+                        <a href="sair.php">DESLOGAR</a>
+                     <?php endif; ?>   
+            
+                  
+                        
 
             
             </div>
