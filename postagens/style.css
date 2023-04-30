@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+ --header-botton-color: #768ac8 ;
+ --background-color: #FFFFFF;
+ --font-color: #000000;
+
+}
