@@ -17,7 +17,6 @@ if(!empty($_POST['email'])){
     }
 }
 ?>
-
 <h1>LOGIN</h1>
 
     <form method="post">

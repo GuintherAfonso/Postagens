@@ -13,7 +13,7 @@ session_start();
  }
 ?>
 
-<h1>CRIAR POST</h1>
+   <h1>CRIAR POST</h1>
 
 <form method="post" action="post.submit.php">
         Titulo: <br>

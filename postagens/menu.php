@@ -11,7 +11,7 @@
         <header>
             <div>
                  
-                        <a href="index.php">HOME</a>
+                         <a href="index.php">HOME</a>
                         <a href="categoria.php">CATEGORIAS</a>
                         <a href="post.php">POSTAR</a>
                         <a href="login.php">LOGIN</a>

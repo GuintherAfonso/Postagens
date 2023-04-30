@@ -7,7 +7,6 @@ if(!empty($_POST['nome'])){
 
     $categoria->adicionar($nome);
     header("Location: index.php");
-    
 }
 
 

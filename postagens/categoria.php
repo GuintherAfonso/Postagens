@@ -10,7 +10,7 @@ session_start();
   }
 ?>
 
-<h1>CRIAR CATEGORIA</h1>
+   <h1>CRIAR CATEGORIA</h1>
 
 <form method="post" action="categoria.submit.php">
         Nome: <br>

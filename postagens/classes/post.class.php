@@ -83,5 +83,4 @@ public function traznome ($idcategoria) {
         return 'ERRO ' . $ex->getMessage();
     }            
 }
-
 }

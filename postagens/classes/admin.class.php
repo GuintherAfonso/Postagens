@@ -24,5 +24,4 @@ public function fazerLogin($email, $senha){
         }
         return FALSE;
     }
-
 }    

@@ -9,7 +9,6 @@ if(!empty($_POST['titulo'])){
 
     $post->adicionar($titulo, $descricao, $idcategoria);
     header("Location: index.php");
-    
 }
 
 
