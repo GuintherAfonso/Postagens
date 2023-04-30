@@ -26,7 +26,7 @@ session_start();
             <?php foreach( $categorias as $categoria ) { ?>
                 <option value="<?php echo $categoria['id_categoria'] ?>"><?php echo $categoria['nome'] ?></option>
             <?php }; ?>
-        </select>
+        </select><br><br>
 
         <input class="button" type="submit" value="Salvar">
         <a class="button" href="index.php">VOLTAR</a>

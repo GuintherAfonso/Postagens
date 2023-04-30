@@ -1,4 +1,5 @@
 <?php
+  session_start();
   include 'classes/post.class.php';
   include 'classes/categoria.class.php';
   include 'menu.php';
@@ -20,6 +21,7 @@
                 
 
         ?>
+        <br><br>
         <tr> 
                 <td>
                         <?php echo $item['titulo']; ?>
